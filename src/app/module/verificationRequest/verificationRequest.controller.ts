@@ -5,6 +5,7 @@ import httpStatus from 'http-status'
 import { VerificationRequestService } from './verificationRequest.service'
 import { ReferenceService } from '../reference/reference.service'
 import { BankService } from '../bank/bank.service'
+import { Multer } from 'multer'
 
 const getVerificationRequests = catchAsync(async (req: Request, res: Response) => {
     const result = await VerificationRequestService.getVerificationRequests()
@@ -19,8 +20,15 @@ const getVerificationRequests = catchAsync(async (req: Request, res: Response) =
 const createVerificationRequest = catchAsync(async (req: Request, res: Response) => {
     const data = {
         ...req.body,
-        videoAuthorization: req?.file?.path
+        videoAuthorization: req.files?.videoAuthorization[0].filename,
+        frontSideOfId: req.files?.frontSideOfId[0].filename,
+        backSideOfId: req.files?.backSideOfId[0].filename,
+        selfieWithId: req.files?.selfieWithId[0].filename,
+        depositSlip: req.files?.depositSlip[0].filename,
     }
+
+
+
     await VerificationRequestService.createVerificationRequest(data)
 
     await ReferenceService.updateReference(req.body.reference, { status: "completed" })

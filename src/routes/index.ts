@@ -6,6 +6,7 @@ import { VendorRoutes } from '../app/module/vendor/vendor.routes'
 import { BankRoutes } from '../app/module/bank/bank.routes'
 import { VerificationRequestRoutes } from '../app/module/verificationRequest/verificationRequest.routes'
 import { ReferenceRoutes } from '../app/module/reference/reference.routes'
+import { ViewVideoRoutes } from '../app/module/viewVideo/viewVideo.routes'
 const router = express.Router()
 
 const moduleRoutes = [
@@ -36,6 +37,10 @@ const moduleRoutes = [
     {
         path: '/reference',
         route: ReferenceRoutes,
+    },
+    {
+        path: '/video',
+        route: ViewVideoRoutes,
     },
 ]
 
