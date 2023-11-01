@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/.1e910b447ed7e9fa8f77658be202cb672fac789c-audit.json",
+    "files": [
+        {
+            "date": 1698690215874,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-10-31-00.log",
+            "hash": "5e9b7ba43bb616488fd6a61e1c9d789a4d588a1110ea8c1547369617b026e7a0"
+        },
+        {
+            "date": 1698692626320,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-10-31-01.log",
+            "hash": "0daa29a74ee7f3fc63a9423a94f7d348475bc1d2d53f20fe06e2956af26c0e9a"
+        },
+        {
+            "date": 1698696155723,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-10-31-02.log",
+            "hash": "ff8bdc279b468653ada428dde2d9b13ef3e8020a5f29b1ac8a5c8dba792d1462"
+        },
+        {
+            "date": 1698699625764,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-10-31-03.log",
+            "hash": "2b8828c2569fc1e060faf4702b3276afc4d558d2e654d03444a6b8ace836f9db"
+        },
+        {
+            "date": 1698774004210,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-10-31-23.log",
+            "hash": "93082c8ed43d0194994b0414535eb48696c035e3ed9c5ec724205d110285274c"
+        },
+        {
+            "date": 1698775664574,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-00.log",
+            "hash": "a58129c3123b263109307ba48620f1c79658e7da32a5337aca7d772693d9a358"
+        },
+        {
+            "date": 1698782308015,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-01.log",
+            "hash": "39ecf25346b7e982c56e60df68cd6d6085715c901756c71125e92836421a49ac"
+        },
+        {
+            "date": 1698783054107,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-02.log",
+            "hash": "c74facb8fcd0931c589d4ed2d7592df0eeeb71f22cd0705cea737ee81ce61928"
+        },
+        {
+            "date": 1698786050834,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-03.log",
+            "hash": "ae56acfdff219ceb8b37e268264dbc9bc2077a51024844cca68b54fbc19c9475"
+        },
+        {
+            "date": 1698792393619,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-04.log",
+            "hash": "a287e649d058898174e63c2cc431241ca0f4eb7a997357cbb29b92fc189dd768"
+        },
+        {
+            "date": 1698793266983,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-05.log",
+            "hash": "8c59a7ce40bd449b311d11d00ac894a51c95415e1b02fba41925393832a141c8"
+        },
+        {
+            "date": 1698798434153,
+            "name": "/Users/prince/Desktop/varificationn/express-mongoose-init/logs/success/success-2023-11-01-06.log",
+            "hash": "6b3b732c65e66e11df7fa0f0672c6fae4d0576789e44ace63dc4bca64172117c"
+        }
+    ],
+    "hashType": "sha256"
+}

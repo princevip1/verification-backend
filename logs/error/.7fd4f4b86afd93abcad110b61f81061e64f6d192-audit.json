@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/prince/Desktop/type-script/sms-backend/logs/error/.7fd4f4b86afd93abcad110b61f81061e64f6d192-audit.json",
+    "files": [
+        {
+            "date": 1698412108833,
+            "name": "/Users/prince/Desktop/type-script/sms-backend/logs/error/error-2023-10-27-19.log",
+            "hash": "4edccec93381da23eb365d3b97b6172d1479f9680777f70ec9d6904d5be0ff70"
+        },
+        {
+            "date": 1698418667315,
+            "name": "/Users/prince/Desktop/type-script/sms-backend/logs/error/error-2023-10-27-20.log",
+            "hash": "6b7544efb25fc84f5387f04bc007398983cd0f16f12d7372bfa029a685d7842c"
+        },
+        {
+            "date": 1698418843124,
+            "name": "/Users/prince/Desktop/type-script/sms-backend/logs/error/error-2023-10-27-21.log",
+            "hash": "f7e5e988132c6a92cf1be00077e2b09d7dd95236cc50ad742722cff1ed02468f"
+        },
+        {
+            "date": 1698485252308,
+            "name": "/Users/prince/Desktop/type-script/sms-backend/logs/error/error-2023-10-28-15.log",
+            "hash": "20027299a16464cfb65225fa26a1fe7dc2040ee5dc1db7fde3832166206f9860"
+        },
+        {
+            "date": 1698490034499,
+            "name": "/Users/prince/Desktop/type-script/sms-backend/logs/error/error-2023-10-28-16.log",
+            "hash": "10e0bb8f16f5e9d79a679cff099e4a312869ab47edd101d2255182d37f1667c8"
+        },
+        {
+            "date": 1698491993617,
+            "name": "/Users/prince/Desktop/type-script/sms-backend/logs/error/error-2023-10-28-17.log",
+            "hash": "1671468fe2bba58582bfd6554b9a7fb31cb08668000c90dea00824090007c0d6"
+        }
+    ],
+    "hashType": "sha256"
+}
